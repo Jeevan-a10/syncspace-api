@@ -1,0 +1,33 @@
+{
+  "name": "syncspace-api",
+  "version": "1.0.0",
+  "description": "Real-time collaborative workspace and document synchronization engine (Socket.io, Express, Node.js, MongoDB)",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "node --test tests/*.test.js"
+  },
+  "keywords": [
+    "real-time",
+    "socket.io",
+    "collaboration",
+    "express",
+    "mongodb",
+    "nodejs",
+    "mern"
+  ],
+  "author": "Jeevan",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.3.0",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0",
+    "socket.io-client": "^4.8.1"
+  }
+}
